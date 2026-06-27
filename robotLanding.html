@@ -1,0 +1,975 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Robot landing page template for the unofficial Walking War Robots wiki, built as a catalog of clickable robot placeholders."
+    />
+    <title>WWR Wiki - Robots</title>
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+Grantha&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="topbar" aria-label="Robot page navigation">
+        <a class="hero-label" href="./index.html">Back to Home</a>
+        <small>Robot catalog template</small>
+        <nav>
+          <a href="#roster">Roster</a>
+          <a href="#structure">Structure</a>
+          <a href="#notes">Notes</a>
+        </nav>
+      </header>
+
+      <section class="hero" aria-labelledby="robots-title">
+        <div class="hero-panel">
+          <span class="hero-label">Robot landing page</span>
+          <h1 id="robots-title" class="black-ops-one-regular">
+            Build the robot index once, expand forever
+          </h1>
+          <p class="subtitle">
+            Use this page as the master list for every robot in the wiki. Each
+            card is a small preview that can link to its own dedicated article
+            later, so you can keep the catalog tidy while the wiki grows.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#roster">Browse the roster</a>
+            <a class="button secondary" href="#structure">See the template</a>
+          </div>
+        </div>
+
+        <aside class="side-panel" aria-labelledby="robot-quick-facts">
+          <h2 id="robot-quick-facts">Quick facts</h2>
+          <div class="meta-list">
+            <div class="meta-item">
+              <strong>Purpose</strong>
+              <span>Central landing page for all robot pages.</span>
+            </div>
+            <div class="meta-item">
+              <strong>Card design</strong>
+              <span
+                >Preview image area, name, role chips, and a future page
+                link.</span
+              >
+            </div>
+            <div class="meta-item">
+              <strong>Editing flow</strong>
+              <span
+                >Duplicate a card, replace the placeholder text, and update the
+                URL slug.</span
+              >
+            </div>
+          </div>
+        </aside>
+      </section>
+
+      <main class="sections">
+        <section
+          class="section-panel"
+          id="roster"
+          aria-labelledby="roster-title"
+        >
+          <div class="section-header">
+            <div>
+              <h2 id="roster-title">Robot roster</h2>
+              <p>Search and filter through every known robot in the wiki.</p>
+            </div>
+          </div>
+
+          <div class="search-row">
+            <label class="search-field" for="robot-search">
+              <span>Search robots</span>
+              <input
+                id="robot-search"
+                class="search-input"
+                type="search"
+                placeholder="Search by name, role, or keyword..."
+                autocomplete="off"
+              />
+            </label>
+            <p class="results-meta" aria-live="polite">
+              <span id="result-count">22</span> robots shown
+            </p>
+          </div>
+
+          <div class="robot-toolbar" aria-label="Suggested filters">
+            <button
+              class="filter-pill is-active"
+              type="button"
+              data-filter="all"
+            >
+              All robots
+            </button>
+            <button class="filter-pill" type="button" data-filter="Light">
+              Light
+            </button>
+            <button class="filter-pill" type="button" data-filter="Medium">
+              Medium
+            </button>
+            <button class="filter-pill" type="button" data-filter="Heavy">
+              Heavy
+            </button>
+            <button class="filter-pill" type="button" data-filter="Tier 1">
+              Tier 1
+            </button>
+            <button class="filter-pill" type="button" data-filter="Tier 2">
+              Tier 2
+            </button>
+            <button class="filter-pill" type="button" data-filter="Tier 3">
+              Tier 3
+            </button>
+            <button class="filter-pill" type="button" data-filter="Tier 4">
+              Tier 4
+            </button>
+            <button
+              class="filter-pill"
+              type="button"
+              data-filter="Dedicated Pilots"
+            >
+              Dedicated Pilots
+            </button>
+            <button
+              class="filter-pill"
+              type="button"
+              data-filter="Community Favorites"
+            >
+              Community Favorites
+            </button>
+            <button class="filter-pill" type="button" data-filter="Fallen Star">
+              Fallen Star
+            </button>
+            <button
+              class="filter-pill"
+              type="button"
+              data-filter="Icarus Technologies"
+            >
+              Icarus Technologies
+            </button>
+            <button class="filter-pill" type="button" data-filter="Spacetech">
+              Spacetech
+            </button>
+            <button class="filter-pill" type="button" data-filter="YAN-DI">
+              YAN-DI
+            </button>
+            <button class="filter-pill" type="button" data-filter="DSC">
+              DSC
+            </button>
+            <button class="filter-pill" type="button" data-filter="EvoLife">
+              EvoLife
+            </button>
+            <button
+              class="filter-pill"
+              type="button"
+              data-filter="Ultimate Edition"
+            >
+              Ultimate Edition
+            </button>
+          </div>
+
+          <div class="robot-grid">
+            <a
+              class="robot-card"
+              href="./robots/robot-01.html"
+              aria-label="Open future page for Robot Placeholder 01"
+            >
+              <div class="robot-preview">
+                <span>Scout</span>
+                <img src="./WarRobotsPreviewImages/Destrier.webp" style="width: 100%; height: 100%" alt="Destrier robot preview image" />
+                <em>01</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Destrier</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  The "training" bot for all new mercenaries. Built by DSC as a
+                  low-cost way to introduce future pilots to the working of war.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Starter</span>
+                  <span class="chip">Ultimate Edition</span>
+                  <span class="chip">Light: 2</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-02.html"
+              aria-label="Open future page for Robot Placeholder 02"
+            >
+              <div class="robot-preview">
+                <span>Scout</span>
+                <img src="./WarRobotsPreviewImages/Cossack.webp" style="width: 100%; height: 100%" alt="Cossack robot preview image" />
+                <em>02</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Cossack</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  A small and nimble robot best suited for scouting and
+                  capturing beacons.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Medium: 1</span>
+                  <span class="chip">Spacetech</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-03.html"
+              aria-label="Open future page for Robot Placeholder 03"
+            >
+              <div class="robot-preview">
+                <span>Fortress</span>
+                <img src="./WarRobotsPreviewImages/Natasha.webp" style="width: 100%; height: 100%" alt="Natasha robot preview image" />
+                <em>03</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Natasha</h3>
+                  <span class="tag">Heavy</span>
+                </div>
+                <p>
+                  A bulky, primitive powerhouse of a robot built by Spacetech to
+                  dominate and lock down areas of the battlefield in the early
+                  days of the war.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 2</span>
+                  <span class="chip">Heavy: 2</span>
+                  <span class="chip">Spacetech</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-04.html"
+              aria-label="Open future page for Robot Placeholder 04"
+            >
+              <div class="robot-preview">
+                <span>Fortress</span>
+                <img src="./WarRobotsPreviewImages/Leo.webp" style="width: 100%; height: 100%" alt="Leo robot preview image" />
+                <em>04</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Leo</h3>
+                  <span class="tag">Heavy</span>
+                </div>
+                <p>
+                  A heavy and menacing brawler built as an answer to the Natasha
+                  by Icarus Technologies. This robot boasts the same toughness
+                  and ability to hold an area as its competitor, while slightly
+                  sacrificing some firepower to be able to relocate easier if
+                  needed.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Ultimate Edition</span>
+                  <span class="chip">Light: 3</span>
+                  <span class="chip">Heavy: 1</span>
+                  <span class="chip">Icarus Technologies</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-05.html"
+              aria-label="Open future page for Robot Placeholder 05"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <img src="./WarRobotsPreviewImages/Gepard.webp" style="width: 100%; height: 100%" alt="Gepard robot preview image" />
+                <em>05</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Gepard</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  A slightly more capable robot made for training fresh recruits
+                  to be placed into the ranks of Icarus Technologies' fighting
+                  force. Fast and light, this robot can hold it's own against
+                  other scouts to claim early territory.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 3</span>
+                  <span class="chip">Icarus Technologies</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-06.html"
+              aria-label="Open future page for Robot Placeholder 06"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <em>06</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>GI. Patton</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  An early model of war machine that foreshadowed the
+                  power-oriented vision of DSC and it's engineers. This robot
+                  was more than capable of taking down scouts and even
+                  contributing to a group effort to push and claim territory.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 4</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-07.html"
+              aria-label="Open future page for Robot Placeholder 07"
+            >
+              <div class="robot-preview">
+                <span>Assassin</span>
+                <img src="./WarRobotsPreviewImages/Bolt.webp" style="width: 100%; height: 100%" alt="Bolt robot preview image" />
+                <em>07</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Bolt</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  An early introduction for pilots that seek a stealthier and
+                  more subtle way of influencing the outcome of a battle. This
+                  robot possesses a booster engine that can propel itself into
+                  or out of situations.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 3</span>
+                  <span class="chip">Evolife</span>
+                  <span class="chip">Community Collab</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-08.html"
+              aria-label="Open future page for Robot Placeholder 08"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <img src="./WarRobotsPreviewImages/Gareth.webp" style="width: 100%; height: 100%" alt="Gareth robot preview image" />
+                <em>08</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Gareth</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  A lighter robot that sacrifices mobility for protection.
+                  Boasting a shield that can fold to allow freedom of movement,
+                  DSC built the Gareth to take out scouting foes.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 1</span>
+                  <span class="chip">Medium: 1</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-09.html"
+              aria-label="Open future page for Robot Placeholder 09"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <img src="./WarRobotsPreviewImages/Jesse.webp" style="width: 100%; height: 100%" alt="Jesse robot preview image" />
+                <em>09</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Jesse</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  Yet another showcase of early DSC innovation. This robot was
+                  built to supply the pilot with two separate sets of weapons
+                  that can fold back and switch with each other to provide an
+                  answer to different situations.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 4</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-10.html"
+              aria-label="Open future page for Robot Placeholder 10"
+            >
+              <div class="robot-preview">
+                  <span>Skirmisher</span>
+                  <img src="./WarRobotsPreviewImages/Vityaz.webp" style="width: 100%; height: 100%" alt="Vityaz robot preview image" />
+                  <em>10</em>
+                </div>
+                <div class="robot-card-body">
+                    <div class="robot-title-row">
+                        <h3>Vityaz</h3>
+                        <span class="tag">Medium</span>
+                    </div>
+                    <p>
+                        A less impressive robot in terms of flair. Spacetech seems to
+                        have built this platform to wait for and pick off weaker
+                        targets. Holding reasonable firepower but not much in terms of
+                  raw strength and durability, the Vityaz is more suited to
+                  discouraging flankers from attacking.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 2</span>
+                  <span class="chip">Heavy: 1</span>
+                  <span class="chip">Spacetech</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-11.html"
+              aria-label="Open future page for Robot Placeholder 11"
+            >
+              <div class="robot-preview">
+                <span>Scout</span>
+                <em>11</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Rogatka</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  Much like the Cossack, Spacetech built the Rogatka for
+                  tactical repositioning and mobility. While it is somewhat
+                  slower, this unit brings a second weapon and a stronger hull,
+                  allowing it to engage in combat and drive away other scouts.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Medium: 2</span>
+                  <span class="chip">Spacetech</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Assassin</span>
+                <em>12</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Stalker</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  A master of early ground coverage, this unit was capable of
+                  capturing key point on the battlefield with no risk to the
+                  pilot due to it's stealth drive. Cutting edge technology for
+                  it's time, the Stalker possesses the ability to entirely hide
+                  itself from auto-targeting software, allowing the pilot to
+                  cover ground safely.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 1</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 2</span>
+                  <span class="chip">YAN-DI</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <em>13</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Galahad</h3>
+                  <span class="tag">Medium</span>
+                </div>
+                <p>
+                  A bulkier design, the Galahad takes the design of the Gareth
+                  and adds another light weapon hardpoint alongside a stronger
+                  shield and bulkier hull. While not suited for long combat,
+                  this unit could contribute more to group raids and had better
+                  chances of survival in shorter duels.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 2</span>
+                  <span class="chip">Medium: 1</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Adaptable</span>
+                <em>14</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Butch</h3>
+                  <span class="tag">Heavy</span>
+                </div>
+                <p>
+                  The heavy variant of the Jesse. This unit was a marvel of it's
+                  time. Packing four heavy weapons that switched pairs when
+                  activating the ability, this robot could dynamically switch
+                  it's active weapons to respond to the ever-changing flow of
+                  combat.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Heavy: 4</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Adaptable</span>
+                <em>15</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Doc</h3>
+                  <span class="tag">Medium</span>
+                </div>
+                <p>
+                  Powerful but agile, the Doc was the middleground of the Wild
+                  West themed robots. Bringing good firepower and respectable
+                  speed, this unit was capable of packing away unwary pilots or
+                  claiming a key point on the battlefield with ease. Possessing
+                  the ability to switch between two of it's four medium weapons,
+                  this unit was adaptable and threatening.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Medium: 4</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <em>16</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Carnage</h3>
+                  <span class="tag">Heavy</span>
+                </div>
+                <p>
+                  Yet another technological breakthrough, Carnage made DSC a
+                  popular faction for robot purchases following it's debut. This
+                  unit possessed the first ever energy shield ever seen on the
+                  battlefield. While it held two heavy weapons and could protect
+                  itself and a few allies with the energy bubble, this robot was
+                  better suited as an ambushing skirmisher when alone. While the
+                  shield was amazing for survivability, Carnage didn't have a
+                  hull strong enough to sustain combat when the shield fell,
+                  requiring a skilled pilot to know when best to retreat.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Heavy: 2</span>
+                  <span class="chip">DSC</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Brawler</span>
+                <em>17</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Rhino</h3>
+                  <span class="tag">Heavy</span>
+                </div>
+                <p>
+                  An early showcase of DSC ideals. Rhino powered through the
+                  enemy lines with a show of brute force. Possessing a frontal
+                  shield that deployed when charging, this unit was capable of
+                  taking a beating.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 2</span>
+                  <span class="chip">Medium: 2</span>
+                  <span class="chip">DSC</span>
+                  <span class="chip">Ultimate Edition</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Scout</span>
+                <em>18</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Hover</h3>
+                  <span class="tag">Medium</span>
+                </div>
+                <p>
+                  Unique in design, this unit was the first to take the battle
+                  vertical in ways never before seen. Possessing jet thrusters,
+                  Hover could propel itself high into the air to fire upon
+                  targets that were foolish enough to think the were safe behind
+                  low cover.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 1</span>
+                  <span class="chip">Medium: 2</span>
+                  <span class="chip">Spacetech</span>
+                  <span class="chip"
+                    ><img
+                      src="badges/DedicatedPilotsBadge.png"
+                      class="wiki-badge"
+                      alt="Dedicated Pilots"
+                      title="Dedicated Pilots - Maintained by a loyal playerbase."
+                      style="width: 24px; height: 24px"
+                  /></span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Brawler</span>
+                <em>19</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Lancelot</h3>
+                  <span class="tag">Heavy</span>
+                </div>
+                <p>
+                  Another sturdy creation by DSC. This robot is the heavy
+                  version of Gareth and Galahad. Equipped with a strong frontal
+                  shield and movement enhancing thrusters, this unit was capable
+                  of carving it's way through opposing mercenaries like they
+                  were flies.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Medium: 2</span>
+                  <span class="chip">Heavy: 1</span>
+                  <span class="chip">DSC</span>
+                  <span class="chip">Ultimate Edition</span>
+                  <span class="chip"
+                    ><img
+                      src="badges/CommunityFavoriteBadge.png"
+                      class="wiki-badge"
+                      alt="Community Favorites"
+                      title="Community Favorites - Popular with the playerbase"
+                      style="width: 24px; height: 24px"
+                  /></span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <em>20</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Ao Qin</h3>
+                  <span class="tag">Light</span>
+                </div>
+                <p>
+                  The light installment of the first true flying robot. The
+                  addition of flight capabilities makes it a versatile unit in
+                  various combat scenarios, able to leverage it's built-in
+                  arc-laser to provide extra firepower and burn through the
+                  hulls of most low-end skirmisher and scout oriented robots.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 4</span>
+                  <span class="chip">Spacetech</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <em>21</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Kumiho</h3>
+                  <span class="tag">Medium</span>
+                </div>
+                <p>
+                  Built with the same technology as the Bolt, Kumiho possesses
+                  an upgraded dash drive that allows it to engage enemies more
+                  effectively and with greater precision. While still not
+                  impressive in turns of raw power and durability, it remains a
+                  solid choice for pilots seeking a balanced and versatile unit
+                  while on a budget.
+                </p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Medium: 2</span>
+                  <span class="chip">Icarus Technologies</span>
+                </div>
+              </div>
+            </a>
+
+            <a
+              class="robot-card"
+              href="./robots/robot-12.html"
+              aria-label="Open future page for Robot Placeholder 12"
+            >
+              <div class="robot-preview">
+                <span>Skirmisher</span>
+                <em>22</em>
+              </div>
+              <div class="robot-card-body">
+                <div class="robot-title-row">
+                  <h3>Griffin</h3>
+                  <span class="tag">Medium</span>
+                </div>
+                <p>Integrated with the same jump drive as the Cossack, this unit changed the flow of battle forever. Able to effectively ambush target around cover, Griffin was usually built for burst damage to neutralize lighter units and unwary pilots.</p>
+                <div class="chip-row">
+                  <span class="chip">Tier 2</span>
+                  <span class="chip">Purchasable</span>
+                  <span class="chip">Light: 2</span>
+                  <span class="chip">Medium: 2</span>
+                  <span class="chip">Spacetech</span>
+                  <span class="chip">Ultimate Edition</span>
+                  <span class="chip"
+                    ><img
+                      src="badges/FallenStarBadge.png"
+                      class="wiki-badge"
+                      alt="Fallen Star"
+                      title="Fallen Star"
+                      style="width: 24px; height: 24px"
+                  /></span>
+                  
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <p class="no-results" id="no-results" aria-live="polite">
+            No robots match that search or filter yet.
+          </p>
+        </section>
+
+        <section class="split" aria-label="Robot page guidance">
+          <section
+            class="section-panel"
+            id="structure"
+            aria-labelledby="structure-title"
+          >
+            <div class="section-header">
+              <div>
+                <h2 id="structure-title">Suggested structure</h2>
+                <p>
+                  Keep the landing page as the index, then split each robot into
+                  its own article later.
+                </p>
+              </div>
+            </div>
+
+            <ul class="list">
+              <li>
+                <strong>Card title</strong>
+                <span
+                  >Robot name, rarity, or class should be obvious at a
+                  glance.</span
+                >
+              </li>
+              <li>
+                <strong>Preview area</strong>
+                <span
+                  >Use this for an image, silhouette, or quick visual
+                  marker.</span
+                >
+              </li>
+              <li>
+                <strong>Summary line</strong>
+                <span
+                  >Keep the copy short so the grid stays readable as it
+                  grows.</span
+                >
+              </li>
+              <li>
+                <strong>Future link</strong>
+                <span
+                  >Point each card at its own page slug when you build the
+                  individual articles.</span
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section
+            class="section-panel"
+            id="notes"
+            aria-labelledby="notes-title"
+          >
+            <div class="section-header">
+              <div>
+                <h2 id="notes-title">Notes for later</h2>
+                <p>
+                  These are the little details that make the page easier to
+                  maintain over time.
+                </p>
+              </div>
+            </div>
+
+            <details open>
+              <summary>Slug convention</summary>
+              <p>
+                Rename each `href` to match the final page path you choose, such
+                as a simple slug or a folder per robot.
+              </p>
+            </details>
+            <details>
+              <summary>Adding more robots</summary>
+              <p>
+                Duplicate a card block, update the preview label, and fill in
+                the new robot’s summary without changing the layout.
+              </p>
+            </details>
+            <details>
+              <summary>Keeping it scalable</summary>
+              <p>
+                The grid automatically expands, so you can add a lot of entries
+                without redesigning the page.
+              </p>
+            </details>
+          </section>
+        </section>
+      </main>
+
+      <footer>
+        <p>
+          Robot catalog template for the Unofficial Walking War Robots Wiki.
+        </p>
+      </footer>
+    </div>
+    <script src="./scripts.js" defer></script>
+  </body>
+</html>
