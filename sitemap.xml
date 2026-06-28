@@ -13,7 +13,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/destrier.html</loc>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ao-qin.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/bolt.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/butch.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/carnage.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -25,13 +43,25 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/natasha.html</loc>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/destrier.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/leo.html</loc>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/doc.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/galahad.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/gareth.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -49,13 +79,13 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/bolt.html</loc>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/griffin.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/gareth.html</loc>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/hover.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -67,7 +97,31 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/vityaz.html</loc>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/kumiho.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/lancelot.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/leo.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/natasha.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/rhino.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -85,88 +139,39 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/galahad.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/butch.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/doc.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/carnage.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/rhino.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/hover.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/lancelot.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ao-qin.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/kumiho.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/griffin.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-destrier.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-leo.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-rhino.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
-    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-lancelot.html</loc>
-    <lastmod>2026-06-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>  <url>
+  </url>
+  <url>
     <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-griffin.html</loc>
     <lastmod>2026-06-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
-  </url></urlset>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-lancelot.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-leo.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/ultimate-rhino.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://darkrift859-hue.github.io/War-Robots-Fanmade-Wiki/robots/vityaz.html</loc>
+    <lastmod>2026-06-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
